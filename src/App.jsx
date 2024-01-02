@@ -4,6 +4,8 @@ import './App.css'
 import Carousel from './components/Carousel'
 import AboutUs from './pages/AboutUs'
 import Services from './pages/Services'
+import Machines from './pages/Machines'
+import Footer from './components/Footer'
 
 function App() {
   
@@ -14,6 +16,8 @@ function App() {
         <Home></Home>
         <AboutUs></AboutUs>
         <Services></Services>
+        <Machines></Machines>
+        <Footer></Footer>
       </div>
     </>
   )

@@ -16,25 +16,25 @@ const AboutUs = () => {
                         consequuntur commodi animi suscipit aliquid eos nostrum dignissimos 
                         accusantium? Perspiciatis soluta quidem amet. <br />
                         <div className='grid grid-cols-2'>
-                        <div className='bg-blue-800 w-[200px]  h-[150px] text-white'>
+                        <div className='bg-blue-800 w-[200px] shadow-2xl h-[150px] text-white'>
                         <div className='mx-4'> <h1 className='text-2xl flex justify-center pt-4 font-semibold'>20+ </h1>  Years of Experiences <br /><GrAchievement className='w-[80px] h-[50px] mt-2 ml-[40px]' /></div>
                        
                         </div>
                        <div>
                        <ul className='flex justify-center w-[190px]'>
-                        <IoMdCheckmarkCircleOutline className='text-red-700 w-[30px] h-[20px]' /> <div>100% export oriente</div>
+                        <IoMdCheckmarkCircleOutline className='text-blue-900 w-[30px] h-[20px]' /> <div>100% export oriente</div>
                         </ul>
                         <ul className='flex justify-center w-[210px]'>
-                        <IoMdCheckmarkCircleOutline className='text-red-700 w-[30px] h-[20px]' /> <div>23+ years of experince</div>
+                        <IoMdCheckmarkCircleOutline className='text-blue-900 w-[30px] h-[20px]' /> <div>23+ years of experince</div>
                         </ul>
                         <ul className='flex justify-center w-[192px]'>
-                        <IoMdCheckmarkCircleOutline className='text-red-700  w-[30px] h-[20px]' /> <div>Modern machineries</div>
+                        <IoMdCheckmarkCircleOutline className='text-blue-900  w-[30px] h-[20px]' /> <div>Modern machineries</div>
                         </ul>
                         <ul className='flex justify-center w-[215px]'>
-                        <IoMdCheckmarkCircleOutline className='text-red-700  w-[30px] h-[20px]' /> <div>Quality Control System</div>
+                        <IoMdCheckmarkCircleOutline className='text-blue-900  w-[30px] h-[20px]' /> <div>Quality Control System</div>
                         </ul>
                         <ul className='flex justify-center w-[230px]'>
-                        <IoMdCheckmarkCircleOutline className='text-red-700  w-[30px] h-[20px]' /> <div>Highly Professional Team</div>
+                        <IoMdCheckmarkCircleOutline className='text-blue-900  w-[30px] h-[20px]' /> <div>Highly Professional Team</div>
                         </ul>
                        </div>
                         

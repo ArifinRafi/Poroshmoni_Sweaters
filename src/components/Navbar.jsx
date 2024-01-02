@@ -1,5 +1,5 @@
 import React from "react";
-import logo from '../assets/images/logo.png'
+import logo from '../assets/images/logo.svg'
 import { IoCall } from "react-icons/io5";
 import { Link } from "react-router-dom";
 import { MdEmail } from "react-icons/md";

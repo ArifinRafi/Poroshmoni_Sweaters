@@ -2,10 +2,12 @@ import React from 'react';
 import { IoMdCheckmarkCircleOutline } from "react-icons/io";
 import { GrAchievement } from "react-icons/gr";
 import clothings from '../assets/images/clothings.jpg'
+import { NavbarSimple } from '../components/Navbar';
 
 const AboutUs = () => {
         return (
-                <div className='max-w-screen-xl shadow-2xl p-10 my-24 mx-auto'>
+                <div>
+                        <div className='max-w-screen-xl shadow-2xl p-10 my-24 mx-auto'>
                      <div className='grid grid-cols-1 lg:grid-cols-2  lg:w-[800px]'>
                      <img  src={clothings} className='' alt="" /> 
                      <div className='lg:mx-24 lg:w-[400px]'>
@@ -43,6 +45,7 @@ const AboutUs = () => {
                         </div>
                      </div>
                         </div>  
+                </div>
                 </div>
         );
 };

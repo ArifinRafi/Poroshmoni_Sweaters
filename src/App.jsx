@@ -13,11 +13,7 @@ function App() {
   return (
     <>
       <div className='max-w-screen-3xl mx-auto'>
-        <Home></Home>
-        <AboutUs></AboutUs>
-        <Services></Services>
-        <Machines></Machines>
-        <Footer></Footer>
+        
       </div>
     </>
   )

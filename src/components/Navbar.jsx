@@ -16,9 +16,9 @@ function NavList() {
     <ul className="my-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row items-center lg:gap-6">
       
     <Link className="text-blue-900 flex items-center hover:text-blue-500 transition-colors" to='/'>HOME</Link>
-    <Link className="text-blue-900 flex items-center hover:text-blue-500 transition-colors" to='/'>SERVICES</Link>
+    <Link className="text-blue-900 flex items-center hover:text-blue-500 transition-colors" to='/services'>SERVICES</Link>
     <Link className="text-blue-900 flex items-center hover:text-blue-500 transition-colors" to='/'>PRODUCTS</Link>
-    <Link className="text-blue-900 flex items-center hover:text-blue-500 transition-colors" to='/'>ABOUT US</Link>
+    <Link className="text-blue-900 flex items-center hover:text-blue-500 transition-colors" to='/about'>ABOUT US</Link>
     <Link className="text-blue-900 flex items-center hover:text-blue-500 transition-colors" to='/'>BLOGS</Link>   
       <IoCall className=" text-blue-900 w-[50px] h-[50px]" /> <p className="text-black"> +8801611240524</p>
       <MdEmail className="text-blue-900 w-[50px] h-[50px]" /><p className="text-black">mail@proshmoni.com</p>
@@ -41,7 +41,7 @@ export function NavbarSimple() {
   }, []);
  
   return (
-    <Navbar className="mx-auto max-w-screen-3xl bg-white fixed rounded-none bg-white z-30  border-none px-6 py-3">
+    <Navbar className="mx-auto max-w-screen-3xl bg-white  rounded-none bg-white  border-none px-6 py-3">
       <div className="flex items-center justify-center text-blue-gray-900">
         <Typography
           as="a"

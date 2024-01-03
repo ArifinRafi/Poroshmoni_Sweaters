@@ -61,7 +61,9 @@ const Machines = () => {
 </div>
                                 <p></p>
                                 </div>
-                                <img className='rounded-xl shadow-2xl' src={machine1} alt="" />   
+                                <div className='flex justify-center items-center'>
+                                <img className='rounded-xl shadow-2xl' src={machine1} alt="" />
+                                  </div>   
                 </div>
 
 
@@ -70,35 +72,37 @@ const Machines = () => {
                                 <div className=''>
                                 <h1 className='text-2xl ml-24 font-semibold'> Dial Linking Machine</h1> <br />
                                 <div className="overflow-x-auto">
-  <table className="table">
-    {/* head */}
-    
-    <tbody>
-      {/* row 1 */}
-      <tr className="hover">
-        <th>1</th>
-        <th>3,5,7 & 12 GG </th>
-        <td>400 Nos.</td>
-      </tr>
-      {/* row 2 */}
-      <tr className="hover">
-        <th>2</th>
-        <td>Packet Machine</td>
-        <td>06 Nos.</td>
-      </tr>
-      {/* row 3 */}
-      <tr className="hover">
-        <th>3</th>
-        <th>Dusting Machines</th>
-        <td>2 Nos.</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+                                  <table className="table">
+                                    {/* head */}
+                                    
+                                    <tbody>
+                                      {/* row 1 */}
+                                      <tr className="hover">
+                                        <th>1</th>
+                                        <th>3,5,7 & 12 GG </th>
+                                        <td>400 Nos.</td>
+                                      </tr>
+                                      {/* row 2 */}
+                                      <tr className="hover">
+                                        <th>2</th>
+                                        <td>Packet Machine</td>
+                                        <td>06 Nos.</td>
+                                      </tr>
+                                      {/* row 3 */}
+                                      <tr className="hover">
+                                        <th>3</th>
+                                        <th>Dusting Machines</th>
+                                        <td>2 Nos.</td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                               </div>
                                 <p></p>
                                 </div>
-                                <img className='shadow-2xl rounded-xl w-[550px] h-[500px]' src={machine2} alt="" />   
-                </div>
+                                <div className='flex justify-center items-center'>
+                                <img className='shadow-2xl rounded-xl lg:w-[550px] mt-28 lg:h-[500px]' src={machine2} alt="" />   
+                                </div>
+                            </div>
 
 
 
@@ -125,8 +129,11 @@ const Machines = () => {
 </               div>
                          <p></p>
                          </div>
-                         <img className='shadow-2xl rounded-xl w-[550px] h-[500px]' src={machine3} alt="" />   
-                                     </div>
+                         <div className='flex justify-center items-center'>
+                         <img className='shadow-2xl rounded-xl w-[550px] lg:h-[500px]' src={machine3} alt="" />   
+                         </div>
+                         
+                         </div>
 
                   {/* machine4 */}
 
@@ -186,7 +193,9 @@ const Machines = () => {
 </               div>
                          <p></p>
                          </div>
-                         <img className='shadow-2xl rounded-xl w-[550px] h-[500px]' src={machine4} alt="" />   
+                         <div className='flex justify-center items-center'>
+                         <img className='shadow-2xl rounded-xl w-[550px] lg:h-[500px]' src={machine4} alt="" />
+                          </div>   
                                      </div>
                                 </div>
                

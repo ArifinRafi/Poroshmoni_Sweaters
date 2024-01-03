@@ -23,10 +23,8 @@ const Footer = () => {
     <a className="link link-hover">Press kit</a>
   </nav> 
   <nav>
-    <header className="footer-title">Legal</header> 
-    <a className="link link-hover">Terms of use</a>
-    <a className="link link-hover">Privacy policy</a>
-    <a className="link link-hover">Cookie policy</a>
+    <header className="footer-title">Address</header> 
+    <a className="link link-hover">Factory: Azad Complex, Shahid Siddique Sarak, <br /> Board Bazar, National University, <br /> Gazipur-1700, Dhaka</a>
   </nav>
 </footer>
         );

@@ -6,6 +6,7 @@ import Machines from './Machines';
 import { NavbarSimple } from '../components/Navbar';
 
 const Home = () => {
+        
         return (
                 <div className='w-full'>
                      <Carousel></Carousel>  

@@ -8,7 +8,7 @@ const Carousel = () => {
                        <div className=" w-full">
   <div>
     <div id="slide1" className="carousel-item mb-24 relative w-full">
-    <img src={home} className="w-full pt-24 h-[500px] lg:h-full lg:py-0" />
+    <img src={home} className="w-full pt-0 h-[500px] lg:h-full lg:py-0" />
     <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
     </div>
     <div className='absolute flex flex-col mx-[30%] justify-center  items-center'>

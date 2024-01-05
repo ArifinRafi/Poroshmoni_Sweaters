@@ -13,7 +13,7 @@ const Carousel = () => {
     </div>
     <div className='absolute flex flex-col mx-[30%] justify-center  items-center'>
       
-      <h2 className='text-4xl font-bold text-white lg:mt-96 mt-32  lg:mt-[50%]  w-full' >
+      <h2 className='text-4xl font-bold text-white mt-32  lg:mt-[40%]  w-full' >
         Welcome to Proshmoni Sweaters Limited</h2>
         <div><h3 className='text-xl font-bold text-white w-full'>
          A 100% export oriented Sweater Industry <br />

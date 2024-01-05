@@ -11,7 +11,7 @@ const Machines = () => {
                         {/* machine1 */}
                         <div className='grid mt-20 grid-cols-2 text-blue-900 max-w-screen-2xl mx-auto'>
                                 <div className=''>
-                                <h1 className='text-2xl ml-24 font-semibold'>Jacquard Knitting Machine</h1> <br />
+                                <h1 className='text-2xl lg:ml-24 ml-12 w-full font-semibold'>Jacquard Knitting Machine</h1> <br />
                                 <div className="overflow-x-auto">
                           <table className="table">
                             {/* head */}
@@ -53,7 +53,8 @@ const Machines = () => {
                               <tr className="hover">
                                 
                                 <th>Total</th>
-                                
+                                <th></th>
+                                <th></th>
                                 <td>140 Nos.</td>
                               </tr>
                             </tbody>
@@ -70,7 +71,7 @@ const Machines = () => {
                 {/* machine2 */}
                 <div className='grid mt-20 grid-cols-2 text-blue-900 max-w-screen-2xl mx-auto'>
                                 <div className=''>
-                                <h1 className='text-2xl ml-24 font-semibold'> Dial Linking Machine</h1> <br />
+                                <h1 className='text-2xl ml-12 lg:ml-24 font-semibold'> Dial Linking Machine</h1> <br />
                                 <div className="overflow-x-auto">
                                   <table className="table">
                                     {/* head */}
@@ -100,7 +101,7 @@ const Machines = () => {
                                 <p></p>
                                 </div>
                                 <div className='flex justify-center items-center'>
-                                <img className='shadow-2xl rounded-xl lg:w-[550px] mt-28 lg:h-[500px]' src={machine2} alt="" />   
+                                <img className='shadow-2xl rounded-xl lg:w-[550px] lg:mt-0 mt-20 lg:h-[500px]' src={machine2} alt="" />   
                                 </div>
                             </div>
 
@@ -110,7 +111,7 @@ const Machines = () => {
 
                 <div className='grid mt-20 grid-cols-2 text-blue-900 max-w-screen-2xl mx-auto'>
                                 <div className=''>
-                                <h1 className='text-2xl ml-24 font-semibold'> Dial Linking Machine</h1> <br />
+                                <h1 className='text-2xl ml-12 lg:ml-0 font-semibold'> Dial Linking Machine</h1> <br />
                                                <div className="overflow-x-auto">
                  <table className="table">
                    {/* head */}
@@ -137,9 +138,9 @@ const Machines = () => {
 
                   {/* machine4 */}
 
-                  <div className='grid mt-20 grid-cols-2 text-blue-900 max-w-screen-2xl mx-auto'>
-                                <div className=''>
-                                <h1 className='text-2xl  font-semibold'> Latest Washing Machine & Iron Machine Plant</h1> <br />
+                  <div className='grid mt-20 grid-cols-2 ml-4 text-blue-900 max-w-screen-2xl mx-auto'>
+                                <div className='flex flex-col jusity-center'>
+                                <h1 className='text-2xl font-semibold'> Latest Washing Machine & Iron Machine Plant</h1> <br />
                                                <div className="overflow-x-auto">
                  <table className="table">
                    {/* head */}

@@ -9,9 +9,9 @@ const Machines = () => {
         return (
                 <div>
                         {/* machine1 */}
-                        <div className='grid mt-20 grid-cols-2 text-blue-900 max-w-screen-2xl mx-auto'>
+                        <div className='grid mt-20 gid-cols-1 lg:grid-cols-2 text-blue-900 max-w-screen-2xl mx-auto'>
                                 <div className=''>
-                                <h1 className='text-2xl lg:ml-24 ml-12 w-full font-semibold'>Jacquard Knitting Machine</h1> <br />
+                                <h1 className='text-2xl lg:ml-24 pl-10 w-full font-semibold'>Jacquard Knitting Machine</h1> <br />
                                 <div className="overflow-x-auto">
                           <table className="table">
                             {/* head */}
@@ -69,7 +69,7 @@ const Machines = () => {
 
 
                 {/* machine2 */}
-                <div className='grid mt-20 grid-cols-2 text-blue-900 max-w-screen-2xl mx-auto'>
+                <div className='grid mt-20 gid-cols-1 lg:grid-cols-2 text-blue-900 max-w-screen-2xl mx-auto'>
                                 <div className=''>
                                 <h1 className='text-2xl ml-12 lg:ml-24 font-semibold'> Dial Linking Machine</h1> <br />
                                 <div className="overflow-x-auto">
@@ -101,7 +101,7 @@ const Machines = () => {
                                 <p></p>
                                 </div>
                                 <div className='flex justify-center items-center'>
-                                <img className='shadow-2xl rounded-xl lg:w-[550px] lg:mt-0 mt-20 lg:h-[500px]' src={machine2} alt="" />   
+                                <img className='shadow-2xl rounded-xl w-full lg:w-[35rem] lg:mt-0 mt-20 lg:h-[500px]' src={machine2} alt="" />   
                                 </div>
                             </div>
 
@@ -109,7 +109,7 @@ const Machines = () => {
 
                 {/* machine3 */}
 
-                <div className='grid mt-20 grid-cols-2 text-blue-900 max-w-screen-2xl mx-auto'>
+                <div className='grid mt-20 gid-cols-1 lg:grid-cols-2 text-blue-900 max-w-screen-2xl mx-auto'>
                                 <div className=''>
                                 <h1 className='text-2xl ml-12 lg:ml-0 font-semibold'> Dial Linking Machine</h1> <br />
                                                <div className="overflow-x-auto">
@@ -131,14 +131,14 @@ const Machines = () => {
                          <p></p>
                          </div>
                          <div className='flex justify-center items-center'>
-                         <img className='shadow-2xl rounded-xl w-[550px] lg:h-[500px]' src={machine3} alt="" />   
+                         <img className='shadow-2xl rounded-xl w-full lg:w-[35rem] lg:h-[500px]' src={machine3} alt="" />   
                          </div>
                          
                          </div>
 
                   {/* machine4 */}
 
-                  <div className='grid mt-20 grid-cols-2 ml-4 text-blue-900 max-w-screen-2xl mx-auto'>
+                  <div className='grid mt-20 gid-cols-1 lg:grid-cols-2 ml-4 text-blue-900 max-w-screen-2xl mx-auto'>
                                 <div className='flex flex-col jusity-center'>
                                 <h1 className='text-2xl font-semibold'> Latest Washing Machine & Iron Machine Plant</h1> <br />
                                                <div className="overflow-x-auto">
@@ -195,7 +195,7 @@ const Machines = () => {
                          <p></p>
                          </div>
                          <div className='flex justify-center items-center'>
-                         <img className='shadow-2xl rounded-xl w-[550px] lg:h-[500px]' src={machine4} alt="" />
+                         <img className='shadow-2xl rounded-xl w-full lg:w-[35rem] lg:h-[500px]' src={machine4} alt="" />
                           </div>   
                                      </div>
                                 </div>

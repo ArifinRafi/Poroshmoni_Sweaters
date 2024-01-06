@@ -4,6 +4,7 @@ import AboutUs from './AboutUs';
 import Services from './Services';
 import Machines from './Machines';
 import { NavbarSimple } from '../components/Navbar';
+import Products from './Products';
 
 const Home = () => {
         
@@ -13,6 +14,7 @@ const Home = () => {
                      <AboutUs></AboutUs>
                      <Services></Services>
                      <Machines></Machines>
+                     {/* <Products></Products> */}
                 </div>
         );
 };

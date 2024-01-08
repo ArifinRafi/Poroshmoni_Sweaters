@@ -24,7 +24,8 @@ const Footer = () => {
   </nav> 
   <nav>
     <header className="footer-title">Address</header> 
-    <a className="link link-hover">Factory: Azad Complex, Shahid Siddique Sarak, <br /> Board Bazar, National University, <br /> Gazipur-1700, Dhaka</a>
+    <a className="link link-hover">Corporate Office: 90, Kakrail, Musafir Tower(4th Floor), <br />  Dhaka-1000, Bangladesh</a>
+    <a className="link link-hover">Factory: Azad Complex, 1160 East Kolomessor, <br /> Board Bazar, Gazipur-1704, Dhaka</a>
   </nav>
 </footer>
         );

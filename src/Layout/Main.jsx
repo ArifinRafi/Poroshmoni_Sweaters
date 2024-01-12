@@ -4,6 +4,7 @@ import { NavbarSimple } from '../components/Navbar';
 import Footer from '../components/Footer';
 import Navhead from '../components/Navhead';
 
+
 const Main = () => {
         return (
                 <div>    
@@ -11,6 +12,7 @@ const Main = () => {
                          <NavbarSimple></NavbarSimple>
                         <Outlet></Outlet>
                         <Footer></Footer>
+                        
                 </div>
         );
 };

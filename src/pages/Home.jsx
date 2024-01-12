@@ -5,15 +5,15 @@ import Services from './Services';
 import Machines from './Machines';
 import { NavbarSimple } from '../components/Navbar';
 import Products from './Products';
+import NewCarousel from '../components/NewCarousel';
 
 const Home = () => {
         
         return (
                 <div className='w-full'>
-                     <Carousel></Carousel>  
+                     <NewCarousel></NewCarousel>
                      <AboutUs></AboutUs>
                      <Services></Services>
-                     <Machines></Machines>
                      {/* <Products></Products> */}
                 </div>
         );

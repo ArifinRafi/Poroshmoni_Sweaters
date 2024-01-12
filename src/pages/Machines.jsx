@@ -1,8 +1,8 @@
 import React from 'react';
-import machine1 from '../assets/images/machine1.jpg'
-import machine2 from '../assets/images/machine2.jpg'
+import machine1 from '../assets/images/jaq.jpg'
+import machine2 from '../assets/images/knitting_machine.jpg'
 import machine3 from '../assets/images/machine3.jpg'
-import machine4 from '../assets/images/machine4.jpg'
+import machine4 from '../assets/images/washing.jpg'
 
 
 const Machines = () => {
@@ -63,7 +63,7 @@ const Machines = () => {
                                 <p></p>
                                 </div>
                                 <div className='flex justify-center items-center'>
-                                <img className='rounded-xl shadow-2xl' src={machine1} alt="" />
+                                <img className='rounded-xl shadow-2xl w-[35rem]' src={machine1} alt="" />
                                   </div>   
                 </div>
 
@@ -138,9 +138,9 @@ const Machines = () => {
 
                   {/* machine4 */}
 
-                  <div className='grid mt-20 gid-cols-1 lg:grid-cols-2 ml-4 text-blue-900 max-w-screen-2xl mx-auto'>
-                                <div className='flex flex-col jusity-center'>
-                                <h1 className='text-2xl font-semibold'> Latest Washing Machine & Iron Machine Plant</h1> <br />
+                  <div className='grid mt-20 gid-cols-1 lg:grid-cols-2 text-blue-900 max-w-screen-2xl mx-auto'>
+                                <div className=''>
+                                <h1 className='text-2xl ml-12 lg:ml-0 font-semibold'> Latest Dryer and Washing Machines</h1> <br />
                                                <div className="overflow-x-auto">
                  <table className="table">
                    {/* head */}
@@ -148,45 +148,30 @@ const Machines = () => {
                    <tbody>
                      {/* row 1 */}
                      <tr className="hover">
-                       <th>1</th>
-                       <th>Washing</th>
-                       <th>M/C</th>
-                       <td>2 Nos.</td>
-                     </tr>
-
-                     <tr className="hover">
                        <th>2</th>
-                       <th>Hydrostructer</th>
+                       <th>Hydrostructurer</th>
                        <th>M/C</th>
-                       <td>2 Nos.</td>
+                       <td>2 NOS</td>
                      </tr>
 
                      <tr className="hover">
                        <th>3</th>
                        <th>Dryer</th>
                        <th>M/C</th>
-                       <td>2 Nos.</td>
+                       <td>2 NOS</td>
                      </tr>
 
                      <tr className="hover">
                        <th>4</th>
                        <th>Boiler</th>
                        <th>M/C</th>
-                       <td>2 Nos.</td>
+                       <td>2 NOS</td>
                      </tr>
-
                      <tr className="hover">
-                       <th>5</th>
+                       <th>1</th>
                        <th>Iron</th>
                        <th>M/C</th>
-                       <td>2 Nos.</td>
-                     </tr>
-
-                     <tr className="hover">
-                       <th>Total</th>
-                       <th></th>
-                       <th></th>
-                       <th>30 Nos.</th>
+                       <td>2 NOS</td>
                      </tr>
                      
                    </tbody>
@@ -195,9 +180,12 @@ const Machines = () => {
                          <p></p>
                          </div>
                          <div className='flex justify-center items-center'>
-                         <img className='shadow-2xl rounded-xl w-full lg:w-[35rem] lg:h-[500px]' src={machine4} alt="" />
-                          </div>   
-                                     </div>
+                         <img className='shadow-2xl rounded-xl w-full lg:w-[35rem] lg:h-[500px]' src={machine4} alt="" />   
+                         </div>
+                         
+                         </div>
+
+                  {/* machine4 */}
                                 </div>
                
 

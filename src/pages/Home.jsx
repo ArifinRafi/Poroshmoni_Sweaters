@@ -6,6 +6,8 @@ import Machines from './Machines';
 import { NavbarSimple } from '../components/Navbar';
 import Products from './Products';
 import NewCarousel from '../components/NewCarousel';
+import OurFactory from '../components/OurFactory';
+import Certifications from './Certifications';
 
 const Home = () => {
         
@@ -15,6 +17,10 @@ const Home = () => {
                      <AboutUs></AboutUs>
                      <Services></Services>
                      {/* <Products></Products> */}
+                     <OurFactory></OurFactory>
+                     <Certifications></Certifications>
+
+                     
                 </div>
         );
 };

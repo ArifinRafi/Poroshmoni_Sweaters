@@ -24,7 +24,7 @@ const NewCarousel = () => {
       <img src={banner} alt="" />
       <motion.div variants={fadeInDown} initial='initial' whileInView={'animate'}
     transition={{duration:0.5, delay:0.5}} className='text-center text-white absolute'>
-        <h1 className='text-4xl font-bold'>Welcome to Proshmoni Sweaters</h1>
+        <h1 className='text-5xl font-bold'>Welcome to Proshmoni Sweaters</h1>
         <h2 className='text-xl'>100% export oriented factory</h2>
       </motion.div>
     </div>

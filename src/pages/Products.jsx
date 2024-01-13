@@ -1,23 +1,30 @@
 import React from 'react';
-import { Pie } from 'react-chartjs-2';
+import sweater1 from '../assets/images/sweater1.jpg'
+import sweater2 from '../assets/images/sweater2.jpg'
+import sweater3 from '../assets/images/sweater3.jpg'
 
 const Products = () => {
-  // Sample data for the pie chart
-  const data = {
-    labels: ['Red', 'Blue', 'Yellow'],
-    datasets: [
-      {
-        data: [300, 50, 100],
-        backgroundColor: ['#FF6384', '#36A2EB', '#FFCE56'],
-        hoverBackgroundColor: ['#FF6384', '#36A2EB', '#FFCE56'],
-      },
-    ],
-  };
-
+  const sweaters = [
+     sweater2, sweater3
+  ];
   return (
-    <div>
-      <h2>Pie Chart Example</h2>
-      <Pie data={data} />
+    <div className='lg:grid flex flex-col items-center justify-items-center max-w-screen-xl mx-auto lg:grid-cols-2'>
+    {
+      sweaters.map((sweater, index)=> (
+        <div key={index} className="card p-12 mt-12 w-96 bg-base-100 shadow-xl">
+    <figure className=" pt-10">
+    <img src={sweater} alt="Shoes" className="rounded-xl" />
+    </figure>
+    <div className="card-body items-center text-center">
+    <h2 className="card-title">Sweater</h2>
+    <p>If a dog chews shoes whose shoes does he choose?</p>
+    <div className="card-actions">
+      <button className="btn btn-primary">Buy Now</button>
+    </div>
+  </div>
+    </div>
+      ))
+    }
     </div>
   );
 };

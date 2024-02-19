@@ -2,6 +2,7 @@ import React from 'react';
 import sweater1 from '../assets/images/sweater1.jpg'
 import sweater2 from '../assets/images/sweater2.jpg'
 import sweater3 from '../assets/images/sweater3.jpg'
+import { Link } from 'react-router-dom';
 
 const Products = () => {
   const sweaters = [
@@ -21,7 +22,7 @@ const Products = () => {
     <h2 className="card-title">{sweater.name}</h2>
     <p>If a dog chews shoes whose shoes does he choose?</p>
     <div className="card-actions">
-      <button className="btn btn-primary">Buy Now</button>
+      <Link className="btn btn-primary">Buy Now</Link>
     </div>
   </div>
     </div>

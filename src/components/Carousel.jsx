@@ -33,7 +33,7 @@ const Carousel = () => {
     transition={{duration:0.5, delay:0.5}}
     className='absolute flex flex-col  lg:mx-96 justify-center items-center'>
       
-      <h2 className='lg:text-4xl   text-2xl font-bold text-white mt-[15%] ml-12 lg:mt-60 lg:px-20  w-full' >
+      <h2 className='lg:text-4xl text-2xl font-bold text-white mt-[15%] ml-12 lg:mt-60 lg:px-20  w-full' >
         Welcome to Proshmoni Sweaters </h2> 
         <div><h3 className='lg:text-xl text-sm font-bold text-white w-full'>
          A 100% export oriented Sweater Industry <br />

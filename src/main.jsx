@@ -11,6 +11,8 @@ import AboutUs from './pages/AboutUs.jsx';
 import Main from './Layout/Main.jsx';
 import Machines from './pages/Machines.jsx';
 import Products from './pages/Products.jsx';
+import { elements } from 'chart.js';
+import singleProduct from './pages/singleProduct.jsx';
 
 const router = createBrowserRouter([
   {
@@ -28,7 +30,12 @@ const router = createBrowserRouter([
       },
       {
         path:'products', element:<Products></Products>
-      }
+      },
+
+      {
+        path:'product', element:<singleProduct></singleProduct>
+      },
+      
       
     ]
   },

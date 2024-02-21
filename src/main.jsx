@@ -13,6 +13,7 @@ import Machines from './pages/Machines.jsx';
 import Products from './pages/Products.jsx';
 import { elements } from 'chart.js';
 import singleProduct from './pages/singleProduct.jsx';
+import BlogPost from './pages/BlogPost.jsx';
 
 const router = createBrowserRouter([
   {
@@ -35,6 +36,13 @@ const router = createBrowserRouter([
       {
         path:'product', element:<singleProduct></singleProduct>
       },
+
+      {
+        path:'/blog/:index', element:<BlogPost></BlogPost>
+      },
+
+    
+      
       
       
     ]

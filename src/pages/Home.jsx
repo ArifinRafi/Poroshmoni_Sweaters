@@ -9,16 +9,19 @@ import NewCarousel from '../components/NewCarousel';
 import OurFactory from '../components/OurFactory';
 import Certifications from './Certifications';
 import CarouselUpdated from '../components/CarouselUpdated';
+import Blogs from './Blogs';
 
 const Home = () => {
         
         return (
                 <div className='w-full'>
-                     <CarouselUpdated></CarouselUpdated>
+                     <NewCarousel></NewCarousel>   
+                     {/* <CarouselUpdated></CarouselUpdated> */}
                      <AboutUs></AboutUs>
                      <Services></Services>
                      {/* <Products></Products> */}
                      <OurFactory></OurFactory>
+                     <Blogs></Blogs>
                      <Certifications></Certifications>
 
                      

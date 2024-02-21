@@ -1,5 +1,5 @@
 import React from 'react';
-import banner from '../assets/images/sweater.jpg';
+import banner from '../assets/images/sweaternew.jpg';
 import {animate, motion} from 'framer-motion';
 
 
@@ -21,11 +21,12 @@ const NewCarousel = () => {
         }
   return (
     <div className='relative w-full flex items-center justify-center'>
-      <img src={banner} alt="" />
+      <img className='h-[750px] w-full' src={banner} alt="" />
       <motion.div variants={fadeInDown} initial='initial' whileInView={'animate'}
     transition={{duration:0.5, delay:0.5}} className='text-center text-white absolute'>
         <h1 className='text-5xl font-bold'>Welcome to Proshmoni Sweaters</h1>
-        <h2 className='text-xl'>100% export oriented factory</h2>
+        <h2 className='text-xl'>100% export oriented factory</h2> <br />
+        <button className='btn btn-primary bg-blue-900 text-white'>Explore more!</button>
       </motion.div>
     </div>
   );

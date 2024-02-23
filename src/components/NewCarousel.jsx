@@ -1,5 +1,5 @@
 import React from 'react';
-import banner from '../assets/images/sweaternew.jpg';
+import banner from '../assets/images/new_cover.jpg';
 import {animate, motion} from 'framer-motion';
 
 

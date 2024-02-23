@@ -3,13 +3,9 @@ import sweater1 from '../assets/images/sweater1.jpg'
 import sweater2 from '../assets/images/sweater2.jpg'
 import sweater3 from '../assets/images/sweater3.jpg'
 import { Link } from 'react-router-dom';
+import sweaters from '../JsonData/ProductsData.json'
 
 const Products = () => {
-  const sweaters = [
-    {img:sweater2, name:"Sewater 101"},
-    {img:sweater3, name:"Hoodie 102"}
-      
-  ];
   return (
     <div className='lg:grid flex flex-col items-center justify-items-center max-w-screen-xl mx-auto lg:grid-cols-2'>
     {
@@ -20,9 +16,9 @@ const Products = () => {
     </figure>
     <div className="card-body items-center text-center">
     <h2 className="card-title">{sweater.name}</h2>
-    <p>If a dog chews shoes whose shoes does he choose?</p>
+    <p>High Quality sweaters and hoodies!</p>
     <div className="card-actions">
-      <Link className="btn btn-primary">Buy Now</Link>
+      <Link to={`/singleProduct/${index}`} className="btn btn-primary bg-blue-900 text-white">See Detail</Link>
     </div>
   </div>
     </div>

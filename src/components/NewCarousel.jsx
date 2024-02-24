@@ -4,6 +4,9 @@ import {animate, motion} from 'framer-motion';
 
 
 const NewCarousel = () => {
+        const openPdf =()=> {
+          window.open('public/company_profile/proshmoni_profile.pdf')
+        }
         const fadeInDown = {
                 initial:{
                   opacity:0,
@@ -26,7 +29,10 @@ const NewCarousel = () => {
     transition={{duration:0.5, delay:0.5}} className='text-center text-white absolute'>
         <h1 className='text-5xl font-bold'>Welcome to Proshmoni Sweaters</h1>
         <h2 className='text-xl'>100% export oriented factory</h2> <br />
+        <div className='flex lg:flex-row flex-col gap-4 justify-center'>
         <button className='btn btn-primary bg-blue-900 text-white'>Explore more!</button>
+        <button onClick={openPdf} className='btn btn-primary bg-blue-900 text-white'>Company Profile</button>
+        </div>
       </motion.div>
     </div>
   );

@@ -19,7 +19,7 @@ function NavList() {
     <Link className="text-blue-900 flex items-center hover:text-blue-500 transition-colors" to='/services'>SERVICES</Link>
     <Link className="text-blue-900 flex items-center hover:text-blue-500 transition-colors" to='/products'>PRODUCTS</Link>
     <Link className="text-blue-900 flex items-center hover:text-blue-500 transition-colors" to='/about'>ABOUT US</Link>
-    <Link className="text-blue-900 flex items-center hover:text-blue-500 transition-colors" to='/'>BLOGS</Link>   
+    <Link className="text-blue-900 flex items-center hover:text-blue-500 transition-colors" to='/blogs'>BLOGS</Link>   
       <IoCall className=" text-blue-900 w-[50px] h-[50px]" /> <p className="text-black"> +8801711546968</p>
       <MdEmail className="text-blue-900 w-[50px] h-[50px]" /><p className="text-black">info@proshmoni.com</p>
     </ul>

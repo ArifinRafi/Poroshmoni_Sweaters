@@ -11,9 +11,9 @@ import AboutUs from './pages/AboutUs.jsx';
 import Main from './Layout/Main.jsx';
 import Machines from './pages/Machines.jsx';
 import Products from './pages/Products.jsx';
-import { elements } from 'chart.js';
-import SingleProduct from './pages/SingleProduct.jsx';
 import BlogPost from './pages/BlogPost.jsx';
+import Blogs from './pages/Blogs.jsx';
+import SingleProduct from './pages/SingleProduct.jsx';
 
 const router = createBrowserRouter([
   {
@@ -39,6 +39,9 @@ const router = createBrowserRouter([
 
       {
         path:'/blog/:index', element:<BlogPost></BlogPost>
+      },
+    {
+      path:'/blogs', element:<Blogs></Blogs>
       },
 
       

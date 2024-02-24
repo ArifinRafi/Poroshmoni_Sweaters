@@ -8,7 +8,7 @@ const singleProduct = () => {
         const {index} = useParams();
         const product = sweaters[index];
         return (
-                <div className='flex justify-around mt-12 max-w-screen-2xl mx-auto'>
+                <div className='flex lg:flex-row flex-col justify-around mt-12 max-w-screen-2xl mx-auto'>
                   <img className='w-96' src={product.img} alt="" /> 
                   <div className='flex p-4  rounded-xl flex-col gap-4'>
                         <h1 className='text-4xl'>{product.name}</h1>

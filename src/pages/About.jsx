@@ -8,9 +8,9 @@ const AboutDirector = () => {
                     <img className='w-96' src={azad} alt="" />    
                     <div className='flex flex-col'>
                         <div className='flex bg-blue-900 items-center justify-center'><h1 className='text-4xl py-2 font-bold text-white '>MESSAGE FROM MD</h1></div>
-                        <h1 className='text-4xl'>A.K AZAD</h1>
-                        <h3 className='text-2xl'>Managing Director</h3>
-                        <p className='text-sm'>
+                        <h1 className='text-4xl px-4'>A.K AZAD</h1>
+                        <h3 className='text-2xl px-4'>Managing Director</h3>
+                        <p className='p-4 text-sm'>
                         We the Proshmoni Sweater Ltd., Like to introduce our-self as a sweater manufacturer factory in Dhaka, Bangladesh.
                         Our factory has been running production since 2003. <br /> <br /> At present we have 140 set fully computerized jacquard machines and 400 set hand drive knitting machines, also we have 10 set auto linking machines for early production.
                         We can assure you the quality and on time delivery. We have a very strong follow-up in every section from winding to finishing to ensure the quality. If you have any development program, please let us do it for you.
@@ -22,7 +22,7 @@ const AboutDirector = () => {
                 </div>
 
 
-                <div className=' mt-12 '>
+                {/* <div className=' mt-12 '>
                         <div className='bg-blue-900 w-full flex justify-center'><h1 className='p-2 font-bold text-4xl text-white'>AT A GLANCE OUR COMPANY </h1></div>
                         <div className=' mt-12 grid lg:grid-cols-3'>
                               <div className=''>
@@ -64,7 +64,69 @@ const AboutDirector = () => {
 
                               </div>
                         </div>
-                </div>
+                </div> */}
+
+
+<div className="overflow-x-auto">
+  <table className="table">
+    {/* head */}
+    <thead>
+      <tr>
+        <th></th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody>
+      {/* row 1 */}
+      <tr>
+        <th>Name of the Company</th>
+        <td>Proshmoni Sweaters Limited</td>
+      </tr>
+      {/* row 2 */}
+      <tr>
+        <th>Address(Head Office)   </th>
+        <td> Musafir Tower, 90 Kakrail(4thFloor), Dhaka-1000,Bangladesh. Tel:+88-02-8300033,Fax:+88-02-8332790</td>
+      </tr>
+
+      <tr>
+        <th>Address (Factory)  </th>
+        <td>Azad Complex, 1160 East Kolomessor, Board Bazar</td>
+      </tr>
+
+
+      <tr>
+        <th>Contact person</th>
+        <td>  A. K. Azad,  Managing Director</td>
+      </tr>
+
+      <tr>
+        <th>Mobile </th>
+        <td>+88-071711546968</td>
+      </tr>
+
+      <tr>
+        <th>E-mail </th>
+        <td>azadpsltd@gmail.com</td>
+      </tr>
+
+      <tr>
+        <th>Web Address   </th>
+        <td>azadgroup-bd.com</td>
+      </tr>
+
+      <tr>
+        <th>Bank  Details       </th>
+        <td> 1. SOUTHEAST BANK LTD. Uttara Branch, Dhaka-1230, Bangladesh <br />
+        SWIFT: SEBDBDDHUT <br /> A/C No: 001311100014179 <br />
+        2. The Premier Bank Ltd. <br /> Banani Branch, Dhaka-1213,Bangladesh. <br /> SWIFT CODE: PRMRBDDHBNN <br /> A/C No: 104111000824411</td>
+      </tr>
+
+      
+
+    </tbody>
+  </table>
+</div>
+
                 </div>
         );
 };

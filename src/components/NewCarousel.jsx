@@ -29,9 +29,9 @@ const NewCarousel = () => {
     transition={{duration:0.5, delay:0.5}} className='text-center text-white absolute'>
         <h1 className='text-5xl font-bold'>Welcome to Proshmoni Sweaters</h1>
         <h2 className='text-xl'>100% export oriented factory</h2> <br />
-        <div className='flex lg:flex-row flex-col gap-4 justify-center'>
-        <button className='btn btn-primary bg-blue-900 text-white'>Explore more!</button>
-        <button onClick={openPdf} className='btn btn-primary bg-blue-900 text-white'>Company Profile</button>
+        <div className='flex lg:flex-row flex-col gap-4 items-center justify-center'>
+        <button className='btn btn-primary w-52 bg-blue-900 text-white'>Explore more!</button>
+        <button onClick={openPdf} className='btn w-52 w-52 btn-primary bg-blue-900 text-white'>Company Profile</button>
         </div>
       </motion.div>
     </div>

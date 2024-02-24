@@ -7,13 +7,13 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Home from './pages/Home.jsx';
-import AboutUs from './pages/AboutUs.jsx';
+import About from './pages/About.jsx';
 import Main from './Layout/Main.jsx';
 import Machines from './pages/Machines.jsx';
 import Products from './pages/Products.jsx';
 import BlogPost from './pages/BlogPost.jsx';
 import Blogs from './pages/Blogs.jsx';
-import SingleProduct from './pages/SingleProduct.jsx';
+import SingleProduct from './pages/SingleProduct.jsx'
 
 const router = createBrowserRouter([
   {
@@ -24,7 +24,7 @@ const router = createBrowserRouter([
         path:'/', element: <Home></Home>,
       },
       {
-        path:'/about', element: <AboutUs></AboutUs>,
+        path:'/about', element: <About></About>,
       },
       {
         path:'/services', element: <Machines></Machines>,

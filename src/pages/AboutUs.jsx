@@ -8,6 +8,7 @@ const AboutUs = () => {
         return (
                 <div>
                         <div className='max-w-screen-xl shadow-2xl p-10 my-24 mx-auto'>
+                        
                      <div className='grid grid-cols-1 lg:grid-cols-2  lg:w-[800px]'>
                      <img  src={clothings} className='' alt="" /> 
                      <div className='lg:mx-24 lg:w-[400px]'>

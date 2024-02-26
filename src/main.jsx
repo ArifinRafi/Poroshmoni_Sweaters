@@ -13,7 +13,8 @@ import Machines from './pages/Machines.jsx';
 import Products from './pages/Products.jsx';
 import BlogPost from './pages/BlogPost.jsx';
 import Blogs from './pages/Blogs.jsx';
-import SingleProduct from './pages/SingleProduct.jsx'
+import OnlyProducts from './pages/OnlyProducts.jsx';
+
 
 const router = createBrowserRouter([
   {
@@ -34,7 +35,7 @@ const router = createBrowserRouter([
       },
 
       {
-        path:'/singleProduct/:index', element:<SingleProduct></SingleProduct>
+        path:'/singleProduct/:index', element:<OnlyProducts></OnlyProducts>
       },
 
       {

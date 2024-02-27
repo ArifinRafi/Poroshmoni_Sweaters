@@ -5,7 +5,7 @@ import {animate, motion} from 'framer-motion';
 
 const NewCarousel = () => {
         const openPdf =()=> {
-          window.open('public/company_profile/proshmoni_profile.pdf')
+          window.open('https://drive.google.com/file/d/1-drryiXECQfW2n13wSjDPrqE0beDEim1/view?usp=sharing')
         }
         const fadeInDown = {
                 initial:{
